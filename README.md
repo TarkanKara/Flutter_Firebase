@@ -124,13 +124,27 @@
 ## 7 - [Firebase Hosting?](https://firebase.google.com/products/hosting/)
 * Firebase Hosting, güvenli, küresel bir web barındırma CDN'sidir. **Content Delivery Network** (İçerik Dağıtım Ağı).
 * Kullanıcılarınıza yakın sunucuları kullanarak statik içeriği (HTML, CSS, JS, resimler) hızlı bir şekilde iletme konusunda gerçekten iyidir.
-* Hosting, projenize ‘firebaseapp.com’ alan adında bir subdomain verir.
+* Hosting, projenize **‘firebaseapp.com’** alan adında bir subdomain verir.
 * **[Firebase CLI(Command Line Interface)](https://github.com/firebase/firebase-tools)** kullanarak, bilgisayarınızdaki yerel dizinlerden dosyaları Hosting sunucusuna deploy edebilirsiniz.
-* Dosyalar, global CDN’deki(Content Delivery Network) en yakın sunucudan bir SSL bağlantısı üzerinden sunulmaktadır.
-* Statik içeriğin barındırılmasına ek olarak, Firebase Hosting, gelişmiş Progressive Web App ler oluşturabilmeniz için hafif yapılandırma seçenekleri sunar.
-* stemci tarafı yönlendirmesi için URL’leri kolayca yeniden yazabilir veya özel başlıklar oluşturabilirsiniz.
+* Dosyalar, global **CDN’deki(Content Delivery Network)** en yakın sunucudan bir SSL bağlantısı üzerinden sunulmaktadır.
+* Statik içeriğin barındırılmasına ek olarak, **Firebase Hosting,** gelişmiş Progressive Web App ler oluşturabilmeniz için hafif yapılandırma seçenekleri sunar.
+* İstemci tarafı yönlendirmesi için URL’leri kolayca yeniden yazabilir veya özel başlıklar oluşturabilirsiniz.
 * Bir siteyi üretime hazır hale getirdikten sonra, kendi alan adınızı Firebase Hosting’e bağlayabilirsiniz. 
 * Alanınız için otomatik olarak bir SSL sertifikası hazırlanır, böylece tüm içeriğiniz güvenli bir şekilde sunulur.
+
+## 8 - [ML Kit for Firebase?](https://firebase.google.com/products/ml)
+* Firebase için **ML Kiti,** **makine öğrenimi (machine learning)** hakkında hiçbir şey bilmenize gerek kalmadan Google'ın zengin makine öğrenimi (machine learning) uzmanlığından yararlanmanıza olanak tanır.
+* **ML Kit:** Google tarafından üretilmiş, mobil geliştiricilerin uygulamalarına Makine Öğrenmesi yeteneklerini eklemelerini kolaylaştıran bir SDK’dir.
+* ML Kit ile mobil uygulamanıza çeşitli özellikleri ekleyebilirsiniz;
+    * [Metin tanıma (Text  Recognition)](https://firebase.google.com/docs/ml-kit/recognize-text)
+    * [Yüz tanıma (Face Detection)](https://firebase.google.com/docs/ml-kit/detect-faces)
+    * [Görüntü etiketleme (Image Labelling)](https://firebase.google.com/docs/ml-kit/label-images)
+    * [Barkod okuma (Barcode scanning)](https://firebase.google.com/docs/ml-kit/read-barcodes)
+    * [Dil tanıma (Language ID)](https://firebase.google.com/docs/ml-kit/identify-languages) 
+    * [Dil çevirme (On-Device Translation)](https://firebase.google.com/docs/ml-kit/translation)
+    * Görselleri yazıya çevirme
+    * Yazıları görsellere çevirme gibi işlemler de kullanılmaktadır.
+*  *ML Kit önemli bir SDK dir. Google Cloud Vision ve Cloud Auto ML gibi farklı Google Cloud platform hizmetleri tarafından desteklenmektedir.*
 
 
 
