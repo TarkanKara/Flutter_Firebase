@@ -170,3 +170,12 @@
 * Remote Config'i bulutta barındırılan dev bir anahtar kümesi gibi düşünebilirsiniz.
 * Remote Config'in gerçekten öne çıkma şekli, **[her parametre için koşulları tanımlama](https://firebase.google.com/docs/remote-config/parameters)** yeteneğidir.
 * Bir koşul türü, **[belirli değerleri belirli Analytics kitlelerine hedeflemenizi](https://firebase.google.com/docs/remote-config/config-analytics)** sağlar.
+
+# C - [Improve your app — stability and performance?](https://firebase.google.com/products-build)
+
+* **[Test Lab](https://firebase.google.com/products/test-lab/) :** bulutta barındırılan cihazlarda ölçeklenebilir ve otomatikleştirilmiş uygulama testi
+* **[Crashlytics](https://firebase.google.com/products/crashlytics/) :** uygulamanızın çökmelerine ilişkin eyleme geçirilebilir bilgiler
+* **[Performance Monitoring](https://firebase.google.com/products/performance/) :** uygulamanızın performans sorunları hakkında bilgi edinin
+
+### resource :
+* **[What is Firebase](https://medium.com/firebase-developers/what-is-firebase-the-complete-story-abridged-bcc730c5f2c0)**
