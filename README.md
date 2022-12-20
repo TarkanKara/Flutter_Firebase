@@ -164,4 +164,10 @@
 * Analytics ve Predictions ile entegre olduğu için kullanıcı mesajlaşmasıyla yapabileceğiniz bir şey, belirli bir Analytics kitlesinin veya Predictions gruplarının üyelerine mesaj göndermektir.
 * Kullanıcıları uygulamanızla etkileşimde kalmalarını sağlayabilirsiniz.
 
-
+## 3 - [Firebase Remote Config?](https://firebase.google.com/products/remote-config/)
+* Firebase **Remote Config,** uygulamanızda bir güncelleme yayınlamak zorunda kalmadan uygulamanızın davranışında ve görünümünde dinamik değişiklikler yapmanızı sağlar.
+* Peki nasıl bir davranış? Örneğin uygulamanızda arka plan rengini bir süre sonra değiştirmek istiyorsunuz, ya da günün anlam ve önemine göre bir ekran yapmak istiyorsunuz. Her seferinde güncelleme atmaya gerek olmadığını, aslında değişecek yapının text ve image olduğunu biliyorsunuz. İşte bunu console üzerinde gerekli parametreler ile rahatlıkla güncelleyebiliyorsunuz.
+* Remote Config'i bulutta barındırılan dev bir anahtar kümesi gibi düşünebilirsiniz.
+* Remote Config'in gerçekten öne çıkma şekli, **[her parametre için koşulları tanımlama](https://firebase.google.com/docs/remote-config/parameters)** yeteneğidir.
+* Bir koşul türü, **[belirli değerleri belirli Analytics kitlelerine hedeflemenizi](https://firebase.google.com/docs/remote-config/config-analytics)** sağlar.
+*
