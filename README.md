@@ -29,3 +29,18 @@
 * **Cloud Functions :** "sunucusuz", olay odaklı backend
 * **Firebase Hosting :** global web hosting
 * **ML Kit :** makine öğrenimi görevleri için SDK 
+
+### [Authentication?](https://firebase.google.com/products/auth)
+
+![Authentication](https://user-images.githubusercontent.com/59411109/208683525-e1009906-5b83-4902-8c82-8c8503ee195a.png)
+
+* Bir kullanıcıyı uygulamanızda oturum açmak için önce kullanıcıdan kimlik doğrulama bilgilerini alırsınız.
+*  Bu kimlik bilgileri, kullanıcının e-posta adresi ve parolası veya birleşik bir kimlik sağlayıcısından alınan bir OAuth belirteci olabilir. 
+* Ardından, bu kimlik bilgilerini Firebase Kimlik Doğrulama SDK'sına iletirsiniz
+* Backend hizmetlerimiz daha sonra bu kimlik bilgilerini doğrulayacak ve müşteriye bir yanıt gönderecektir.
+* Başarılı bir oturum açtıktan sonra kullanıcının temel profil bilgilerine erişebilir ve kullanıcının diğer Firebase ürünlerinde depolanan verilere erişimini kontrol edebilirsiniz.
+* Sağlanan kimlik doğrulama belirtecini, kendi backend hizmetlerinizdeki kullanıcıların kimliğini doğrulamak için de kullanabilirsiniz.
+
+:bangbang:
+
+* Varsayılan olarak, kimliği doğrulanmış kullanıcılar Firebase **Realtime Database** ve **Cloud Storage'a** veri okuyabilir ve yazabilir
