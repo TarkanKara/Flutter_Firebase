@@ -53,12 +53,36 @@
 * Hiç bir sql sorgusuna gerek duymadan json parametreleri ile yönetebilirler.
 * Veri depolamanın yanı sıra asenkron çalışması ile veri değişimlerinin anlık olarak takip edilmesine olanak sağlar.
 * Firebase **Realtime Database**,bütün verileri **JSON(JavaScript Object Notation) objesi** olarak tutar.
-* Firebase Realtime yapısını genel olarak **bulut tabanlı bir json ağaç yapısı** olarak düşünebilirsiniz.
+* Firebase Realtime database yapısını genel olarak **bulut tabanlı bir json ağaç yapısı** olarak düşünebilirsiniz.
 * Json ağacına veri eklediğinizde  veriniz **JSON formatında bir node(düğüm)** haline gelir. 
 * Bu düğümler **anahtar-değer (key-value)** yapısına sahiptir.
-* Kullanıcı ID veya semantik isimler gibi kendi anahtarlarınızı oluşturabilirsiniz.
-* JSON yapısı içerisinde **anahtar değerler String tipinde ve eşsizdirler.**
-* Anahtarın aldığı değerler **String,Integer,Boolean** gibi çeşitli tiplerde olabilirler. 
+* Kullanıcı ID veya semantik isimler gibi kendi anahtarlarınızı (key) oluşturabilirsiniz.
+* JSON yapısı içerisinde **anahtar değerler (key) String tipinde ve eşsizdirler.**
+* Anahtarın aldığı değerler (value) **String,Integer,Boolean** gibi çeşitli tiplerde olabilirler. 
+
+### [Cloud Firestore?](https://firebase.google.com/products/firestore/)
+
+![Realtime Database](https://user-images.githubusercontent.com/59411109/208687619-059d08f6-3b74-4e8a-881a-5b48071d844a.gif)
+
+* Cloud Firestore; verileri kolayca saklamak, sorgulamak amacıyla geliştirilen, **Google'ın döküman tabanlı NoSQL veritabanıdır.**
+
+![Cloud Firestore](https://user-images.githubusercontent.com/59411109/208693276-a42d953e-99c1-49db-b833-50db51950523.png)
+
+* Yani hiçbir SQL sorgusu yazmadan gerekli tabloları oluşturup document formatı ile kontrol etmemizi sağlamaktadır.
+* Veriler **document** adı verilen yapılarda saklanır ve document topluluğuna ise **collection** adı verilir. 
+* Firestore, her biri veri içeren **belge koleksiyonlarından** oluşan **NoSQL belge tabanlı bir veritabanıdır.**
+* Bir NoSQL veritabanı olduğundan, ilişkisel bir veritabanında bulacağınız tabloları, satırları ve diğer öğeleri değil, bunun yerine belgelerin içinde bulacağınız **key/value** çifti kümelerini elde edersiniz.
+* Verileri bir belgeye atayarak dolaylı olarak belgeler ve koleksiyonlar oluşturursunuz.
+* Belge veya koleksiyon yoksa, koleksiyonun her zaman kök (ilk) düğüm olması gerektiğinden sizin için otomatik olarak oluşturulur. 
+* Gerçek zamanlı güncelleme özelliği **(realtime listeners)** sayesinde veritabanın da değişiklik olduğunda, otomatik senkronizasyon yapılarak mobil uygulamada veya web sitesinde verilerin kendiliğinden güncellenmesini sağlar.
+* Offline modu desteği ile internet olmadığında cihazın localinden veriler okunabilir, yazılabilir. İnternet geldiğinde otomatik olarak cloud veritabanına senkronizasyon yapılabilir.
+* Firebase **Authentication** ile tam uyumlu çalışmaktadır. Böylece kullanıcının yetkisine göre verilere erişim veya kısıtlama sağlanabilmektedir.
+* Karmaşık, hiyerarşik, iç içe verileri kolaylıkla saklayabilir, hızlı sorgular yapabilirsiniz. Verileri belli bir şemaya göre saklamak zorunda olmadığınız için her bir dokuman farklı sayıda ve isimde alanlar içerebilir.
+
+
+
+
+
 
 
 
