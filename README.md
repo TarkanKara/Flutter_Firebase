@@ -102,6 +102,20 @@
 * Mobil istemcilerden dosya yükleme ve indirme esnekliği sağlar.
 *  Ayrıca **[Google Cloud Storage API](https://cloud.google.com/storage/docs/reference/libraries)**'lerini kullanarak görüntü filtreleme veya video kod dönüştürme gibi sunucu tarafı işlemleri yapabilirsiniz. yani başka bir sağlayıcıya geçiş yapmanıza gerek kalmaz.
 
+## 6 - [Cloud Functions?](https://firebase.google.com/products/functions/)
+* Cloud Functions, diğer Firebase ve Cloud ürünleriyle iyi çalışan başka bir **[Google Cloud](https://cloud.google.com/functions/)** ürünüdür.
+* Cloud Functions ile yapabileceğiniz şeylerin listesi çok büyük — [tüm bu örneklere bir göz atın!](https://github.com/firebase/functions-samples/)
+* Şimdiye kadar, veritabanındaki değişiklikleri algılamak ve bildirim göndermek için Firebase Admin SDK kullanan özel bir NodeJS sunucusu kullandıysanız, temelde Firebase Cloud Functions yapısını anlamanız kolay olacaktır.
+* Bir veritabanı işlemi gerçekleştiğinde kullanıcıya bildirim gönderebiliriz.
+* Örneğin takipleşme yapısının olduğu bir uygulamamızda bir takip işlemi gerçekleştirildiğinde kişiye bildirim gönderilebiliriz.
+* Anlık mesajlaşma uygulaması geliştirdiğimizi düşünelim. Burada yeni mesaj oluşturulduğunda mesajın gönderildiği kişiye bildirimi gönderilebiliriz.
+* Veritabanının sanitizasyonunu ve bakımı gerçekleştirebilirsiniz.
+* Örneğin Realtime Database üzerine kurulmuş bir sohbet odasında, yazma olaylarını izleyebilir ve kullanıcıların mesajlarından uygunsuz veya küfür içeren metinleri temizleyebilirsiniz.
+* Bir diğer örnekte silinen bir kullanıcının içeriğini veritabanından silebilirsiniz.
+* Yüklenen bir fotoğrafı işleyerek değişiklikler yapabilirsiniz.Yaptığınız değişiklikler, resimleri yeniden boyutlandırma, kırpma veya dönüştürme işlemlerini içerebilir. Örneğin yüklenen resmi thumbnail yapısına dönüştürebilirsiniz.
+* Üçüncü parti hizmetler ve API’lerle entegrasyon yapabilirsiniz.
+* Github üzerinden yapılan bir işlemi Slack sohbet odasına gönderebilirsiniz.
+* Bir diğer örnekte Google Çeviri’yi kullanarak iletileri çevirebilirsiniz.
 
 
 
