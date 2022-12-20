@@ -83,9 +83,9 @@
 
 ## 4 - [Realtime Database vs Cloud Firestore?](https://firebase.google.com/docs/firestore/rtdb-vs-firestore)
 
-| |  **Realtime Database** |**Cloud Firestore ** 
+| |  **Realtime Database** |**Cloud Firestore** 
 | ------------ | ------------ | ------------ |
-|**Data model** | Verileri tek bir büyük** JSON** ağacı olarak depolar.  | Verileri **belge koleksiyonları** olarak depolar.  |
+|**Data model** | Verileri tek bir büyük **JSON** ağacı olarak depolar.  | Verileri **belge koleksiyonları** olarak depolar.  |
 | **Realtime and offline support**  | Apple ve Android istemcileri için çevrimdışı destek.  | Apple ve Android istemcileri için çevrimdışı destek.   |
 |  **Querying** | Sınırlı [sıralama ve filtreleme](https://firebase.google.com/docs/database/web/lists-of-data#sorting_and_filtering_data) işlevine sahip derin sorgular.  | Bileşik [sıralama ve filtreleme](https://firebase.google.com/docs/firestore/query-data/queries) ile dizinlenmiş sorgular.   |
 | **Reliability and performance**  | Realtime Database bölgesel bir çözümdür.  |Cloud Firestore, otomatik olarak ölçeklenen bölgesel ve çok bölgeli bir çözümdür.   |
@@ -101,7 +101,7 @@
 * Firebase için Cloud Storage, dosyalarınızı bir **Google Cloud Storage** paketinde depolayarak hem Firebase hem de Google Cloud üzerinden erişilebilir hale getirir.
 * Mobil istemcilerden dosya yükleme ve indirme esnekliği sağlar.
 *  Ayrıca **[Google Cloud Storage API](https://cloud.google.com/storage/docs/reference/libraries)**'lerini kullanarak görüntü filtreleme veya video kod dönüştürme gibi sunucu tarafı işlemleri yapabilirsiniz. yani başka bir sağlayıcıya geçiş yapmanıza gerek kalmaz.
-* 
+
 
 
 
