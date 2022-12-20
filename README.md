@@ -81,7 +81,18 @@
 * Firebase **Authentication** ile tam uyumlu çalışmaktadır. Böylece kullanıcının yetkisine göre verilere erişim veya kısıtlama sağlanabilmektedir.
 * Karmaşık, hiyerarşik, iç içe verileri kolaylıkla saklayabilir, hızlı sorgular yapabilirsiniz. Verileri belli bir şemaya göre saklamak zorunda olmadığınız için her bir dokuman farklı sayıda ve isimde alanlar içerebilir.
 
-## 4 - [Cloud Storage?](https://firebase.google.com/products/storage/)
+## 4 - [Realtime Database vs Cloud Firestore?](https://firebase.google.com/docs/firestore/rtdb-vs-firestore)
+
+| |  **Realtime Database** |**Cloud Firestore ** 
+| ------------ | ------------ | ------------ |
+|**Data model** | Verileri tek bir büyük** JSON** ağacı olarak depolar.  | Verileri **belge koleksiyonları** olarak depolar.  |
+| **Realtime and offline support**  | Apple ve Android istemcileri için çevrimdışı destek.  | Apple ve Android istemcileri için çevrimdışı destek.   |
+|  **Querying** | Sınırlı [sıralama ve filtreleme](https://firebase.google.com/docs/database/web/lists-of-data#sorting_and_filtering_data) işlevine sahip derin sorgular.  | Bileşik [sıralama ve filtreleme](https://firebase.google.com/docs/firestore/query-data/queries) ile dizinlenmiş sorgular.   |
+| **Reliability and performance**  | Realtime Database bölgesel bir çözümdür.  |Cloud Firestore, otomatik olarak ölçeklenen bölgesel ve çok bölgeli bir çözümdür.   |
+| **Scalability**  | Ölçeklendirme parçalama gerektirir.  | Ölçeklendirme otomatiktir.  |
+
+
+## 5 - [Cloud Storage?](https://firebase.google.com/products/storage/)
 
 * Büyük ölçüde ölçeklenebilir dosya depolaması sağlar.
 * Aynı zamanda teknik olarak bir *Firebase ürünü değil*, bir **[Google Cloud](https://cloud.google.com/storage/)** ürünüdür.
