@@ -64,12 +64,9 @@
 
 ## 3 - [Cloud Firestore?](https://firebase.google.com/products/firestore/)
 
-![Realtime Database](https://user-images.githubusercontent.com/59411109/208687619-059d08f6-3b74-4e8a-881a-5b48071d844a.gif)
-
-* Cloud Firestore; verileri kolayca saklamak, sorgulamak amacıyla geliştirilen, **Google'ın döküman tabanlı NoSQL veritabanıdır.**
-
 ![Cloud Firestore](https://user-images.githubusercontent.com/59411109/208693276-a42d953e-99c1-49db-b833-50db51950523.png)
 
+* Cloud Firestore; verileri kolayca saklamak, sorgulamak amacıyla geliştirilen, **Google'ın döküman tabanlı NoSQL veritabanıdır.**
 * Yani hiçbir SQL sorgusu yazmadan gerekli tabloları oluşturup **document formatı** ile kontrol etmemizi sağlamaktadır.
 * Veriler **document** adı verilen yapılarda saklanır ve **document topluluğuna** ise **collection** adı verilir. 
 * Firestore, her biri veri içeren **belge koleksiyonlarından** oluşan **NoSQL belge tabanlı bir veritabanıdır.**
