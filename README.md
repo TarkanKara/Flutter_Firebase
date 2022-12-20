@@ -117,6 +117,20 @@
 * Github üzerinden yapılan bir işlemi Slack sohbet odasına gönderebilirsiniz.
 * Bir diğer örnekte Google Çeviri’yi kullanarak iletileri çevirebilirsiniz.
 
+:bangbang:
+
+* Firebase ürünleri (veritabanı, depolama, kimlik doğrulama vb.), ürün içindeki veriler değiştiğinde olaylar yayar ve Cloud Functions'a dağıtılan kodunuz bu olaylara yanıt olarak tetiklenir.
+
+## 7 - [Firebase Hosting?](https://firebase.google.com/products/hosting/)
+* Firebase Hosting, güvenli, küresel bir web barındırma CDN'sidir. **Content Delivery Network** (İçerik Dağıtım Ağı).
+* Kullanıcılarınıza yakın sunucuları kullanarak statik içeriği (HTML, CSS, JS, resimler) hızlı bir şekilde iletme konusunda gerçekten iyidir.
+* Hosting, projenize ‘firebaseapp.com’ alan adında bir subdomain verir.
+* **[Firebase CLI(Command Line Interface)](https://github.com/firebase/firebase-tools)** kullanarak, bilgisayarınızdaki yerel dizinlerden dosyaları Hosting sunucusuna deploy edebilirsiniz.
+* Dosyalar, global CDN’deki(Content Delivery Network) en yakın sunucudan bir SSL bağlantısı üzerinden sunulmaktadır.
+* Statik içeriğin barındırılmasına ek olarak, Firebase Hosting, gelişmiş Progressive Web App ler oluşturabilmeniz için hafif yapılandırma seçenekleri sunar.
+* stemci tarafı yönlendirmesi için URL’leri kolayca yeniden yazabilir veya özel başlıklar oluşturabilirsiniz.
+* Bir siteyi üretime hazır hale getirdikten sonra, kendi alan adınızı Firebase Hosting’e bağlayabilirsiniz. 
+* Alanınız için otomatik olarak bir SSL sertifikası hazırlanır, böylece tüm içeriğiniz güvenli bir şekilde sunulur.
 
 
 
