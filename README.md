@@ -144,14 +144,14 @@
 *  *ML Kit önemli bir SDK dir. Google Cloud Vision ve Cloud Auto ML gibi farklı Google Cloud platform hizmetleri tarafından desteklenmektedir.*
 
 # B - [Grow your app — attract and retain users?](https://firebase.google.com/products-release)
-* **Analytics :** kullanıcılarınızıN ve uygulamanızı nasıl kullandıklarını anlayın
+* **[Analytics](https://firebase.google.com/products/analytics/) :** kullanıcılarınızıN ve uygulamanızı nasıl kullandıklarını anlayın
 * **Predictions :** kullanıcı davranışını tahmin etmek için makine öğrenimini analize uygulayın
-* **Cloud Messaging :** kullanıcılara mesaj ve bildirim gönder
-* **Remote Config :** yeni bir sürüm dağıtmadan uygulamanızı özelleştirin; değişiklikleri izle
-* **A/B Testing :** Neyin en iyi sonucu verdiğini görmek için pazarlama ve kullanılabilirlik denemeleri yapın
-* **Dynamic Links :** yerel uygulama dönüşümlerini, kullanıcı paylaşımını ve pazarlama kampanyalarını etkinleştirin
+* **[Cloud Messaging](https://firebase.google.com/products/cloud-messaging/) :** kullanıcılara mesaj ve bildirim gönder
+* **[Remote Config](https://firebase.google.com/products/remote-config/) :** yeni bir sürüm dağıtmadan uygulamanızı özelleştirin; değişiklikleri izle
+* **[A/B Testing](https://firebase.google.com/products/ab-testing/) :** Neyin en iyi sonucu verdiğini görmek için pazarlama ve kullanılabilirlik denemeleri yapın
+* **[Dynamic Links](https://firebase.google.com/products/dynamic-links/) :** yerel uygulama dönüşümlerini, kullanıcı paylaşımını ve pazarlama kampanyalarını etkinleştirin
 * **App Indexing :** Google Arama entegrasyonuyla kullanıcılarla yeniden etkileşime geçin
-* **In-App Messaging :** hedeflenen mesajlarla aktif kullanıcılarınızın ilgisini çekin 
+* **[In-App Messaging](https://firebase.google.com/products/in-app-messaging/) :** hedeflenen mesajlarla aktif kullanıcılarınızın ilgisini çekin 
 
 ## 1 - [Google Analytics for Firebase?](https://firebase.google.com/products/analytics/)
 * Kullanıcılarınızı ve uygulamanızı nasıl kullandıklarını daha iyi tanımanız gerekiyorsa, Analytics size bunu gösterebilir.
@@ -170,4 +170,3 @@
 * Remote Config'i bulutta barındırılan dev bir anahtar kümesi gibi düşünebilirsiniz.
 * Remote Config'in gerçekten öne çıkma şekli, **[her parametre için koşulları tanımlama](https://firebase.google.com/docs/remote-config/parameters)** yeteneğidir.
 * Bir koşul türü, **[belirli değerleri belirli Analytics kitlelerine hedeflemenizi](https://firebase.google.com/docs/remote-config/config-analytics)** sağlar.
-*
