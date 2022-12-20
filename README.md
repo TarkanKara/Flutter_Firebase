@@ -21,7 +21,7 @@
 
 ![Firebase](https://user-images.githubusercontent.com/59411109/208679894-460fb27e-dda5-4b70-ad1e-b8b5ce8f193a.png)
 
-## [Build better apps?](https://console.firebase.google.com/u/0/)
+# A - [Build better apps?](https://console.firebase.google.com/u/0/)
 * **Authentication :** kullanıcı girişi ve kimliği
 * **Realtime Database :** gerçek zamanlı, bulutta barındırılan, NoSQL veritabanı
 * **Cloud Firestore :** gerçek zamanlı, bulutta barındırılan, NoSQL veritabanı
@@ -146,7 +146,14 @@
     * Yazıları görsellere çevirme gibi işlemler de kullanılmaktadır.
 *  *ML Kit önemli bir SDK dir. Google Cloud Vision ve Cloud Auto ML gibi farklı Google Cloud platform hizmetleri tarafından desteklenmektedir.*
 
-
-
+# B - [Grow your app — attract and retain users?](https://firebase.google.com/products-release)
+* **Analytics :** kullanıcılarınızıN ve uygulamanızı nasıl kullandıklarını anlayın
+* **Predictions :** kullanıcı davranışını tahmin etmek için makine öğrenimini analize uygulayın
+* **Cloud Messaging :** kullanıcılara mesaj ve bildirim gönder
+* **Remote Config :** yeni bir sürüm dağıtmadan uygulamanızı özelleştirin; değişiklikleri izle
+* **A/B Testing :** Neyin en iyi sonucu verdiğini görmek için pazarlama ve kullanılabilirlik denemeleri yapın
+* **Dynamic Links :** yerel uygulama dönüşümlerini, kullanıcı paylaşımını ve pazarlama kampanyalarını etkinleştirin
+* **App Indexing :** Google Arama entegrasyonuyla kullanıcılarla yeniden etkileşime geçin
+* **In-App Messaging :** hedeflenen mesajlarla aktif kullanıcılarınızın ilgisini çekin 
 
 
