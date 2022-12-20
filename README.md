@@ -44,3 +44,21 @@
 :bangbang:
 
 * Varsayılan olarak, kimliği doğrulanmış kullanıcılar Firebase **Realtime Database** ve **Cloud Storage'a** veri okuyabilir ve yazabilir
+
+### [Realtime Database?](https://firebase.google.com/products/realtime-database/)
+
+![Realtime Database](https://user-images.githubusercontent.com/59411109/208687619-059d08f6-3b74-4e8a-881a-5b48071d844a.gif)
+
+* Firebase **realtime database** (gerçek zamanlı veri tabanı),**bulut tabanlı NoSql(Not Only Sql) bir veri tabanı** sistemidir.
+* Hiç bir sql sorgusuna gerek duymadan json parametreleri ile yönetebilirler.
+* Veri depolamanın yanı sıra asenkron çalışması ile veri değişimlerinin anlık olarak takip edilmesine olanak sağlar.
+* Firebase **Realtime Database**,bütün verileri **JSON(JavaScript Object Notation) objesi** olarak tutar.
+* Firebase Realtime yapısını genel olarak **bulut tabanlı bir json ağaç yapısı** olarak düşünebilirsiniz.
+* Json ağacına veri eklediğinizde  veriniz **JSON formatında bir node(düğüm)** haline gelir. 
+* Bu düğümler **anahtar-değer (key-value)** yapısına sahiptir.
+* Kullanıcı ID veya semantik isimler gibi kendi anahtarlarınızı oluşturabilirsiniz.
+* JSON yapısı içerisinde **anahtar değerler String tipinde ve eşsizdirler.**
+* Anahtarın aldığı değerler **String,Integer,Boolean** gibi çeşitli tiplerde olabilirler. 
+
+
+
