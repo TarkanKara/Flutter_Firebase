@@ -30,7 +30,7 @@
 * **Firebase Hosting :** global web hosting
 * **ML Kit :** makine öğrenimi görevleri için SDK 
 
-## [Authentication?](https://firebase.google.com/products/auth)
+## 1 - [Authentication?](https://firebase.google.com/products/auth)
 
 ![Authentication](https://user-images.githubusercontent.com/59411109/208683525-e1009906-5b83-4902-8c82-8c8503ee195a.png)
 
@@ -45,7 +45,7 @@
 
 * Varsayılan olarak, kimliği doğrulanmış kullanıcılar Firebase **Realtime Database** ve **Cloud Storage'a** veri okuyabilir ve yazabilir
 
-## [Realtime Database?](https://firebase.google.com/products/realtime-database/)
+## 2 - [Realtime Database?](https://firebase.google.com/products/realtime-database/)
 
 ![Realtime Database](https://user-images.githubusercontent.com/59411109/208687619-059d08f6-3b74-4e8a-881a-5b48071d844a.gif)
 
@@ -62,7 +62,7 @@
 
 ![json](https://user-images.githubusercontent.com/59411109/208705732-ecd0c262-09ca-4264-a8b9-341180ba5a91.png)
 
-## [Cloud Firestore?](https://firebase.google.com/products/firestore/)
+## 3 - [Cloud Firestore?](https://firebase.google.com/products/firestore/)
 
 ![Realtime Database](https://user-images.githubusercontent.com/59411109/208687619-059d08f6-3b74-4e8a-881a-5b48071d844a.gif)
 
