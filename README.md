@@ -156,4 +156,15 @@
 * **App Indexing :** Google Arama entegrasyonuyla kullanıcılarla yeniden etkileşime geçin
 * **In-App Messaging :** hedeflenen mesajlarla aktif kullanıcılarınızın ilgisini çekin 
 
+## 1 - [Google Analytics for Firebase?](https://firebase.google.com/products/analytics/)
+* Kullanıcılarınızı ve uygulamanızı nasıl kullandıklarını daha iyi tanımanız gerekiyorsa, Analytics size bunu gösterebilir.
+* Bir uygulamayı ilk kez yayınladığınızda, kullanıcı tabanınızın kim olacağı, nerede yaşadıkları ve uygulamanızı nasıl kullanabilecekleri hakkında bir fikriniz olabilir.
+* Ve bu fikirler pratikte tamamen yanlış olabilir! Kesin olarak bilmenin tek yolu veri toplamaktır ve Analytics bu noktada yardımcı olur.
+
+## 2 - [Firebase Cloud Messaging - FCM?](https://firebase.google.com/products/cloud-messaging/)
+* **Firebase Cloud Messaging (FCM),** ücretsiz ve güvenilir bir şekilde mesaj göndermenizi sağlayan platformlar arası bir bulut mesajlaşma çözümüdür.
+* Basit bir ifadeyle, FCM'nin GCM'nin (Google Cloud Messaging) oldukça gelişmiş ve gelişmiş bir versiyonu olduğunu söyleyebiliriz.
+* Analytics ve Predictions ile entegre olduğu için kullanıcı mesajlaşmasıyla yapabileceğiniz bir şey, belirli bir Analytics kitlesinin veya Predictions gruplarının üyelerine mesaj göndermektir.
+* Kullanıcıları uygulamanızla etkileşimde kalmalarını sağlayabilirsiniz.
+
 
