@@ -70,18 +70,27 @@
 
 ![Cloud Firestore](https://user-images.githubusercontent.com/59411109/208693276-a42d953e-99c1-49db-b833-50db51950523.png)
 
-* Yani hiçbir SQL sorgusu yazmadan gerekli tabloları oluşturup document formatı ile kontrol etmemizi sağlamaktadır.
-* Veriler **document** adı verilen yapılarda saklanır ve document topluluğuna ise **collection** adı verilir. 
+* Yani hiçbir SQL sorgusu yazmadan gerekli tabloları oluşturup **document formatı** ile kontrol etmemizi sağlamaktadır.
+* Veriler **document** adı verilen yapılarda saklanır ve **document topluluğuna** ise **collection** adı verilir. 
 * Firestore, her biri veri içeren **belge koleksiyonlarından** oluşan **NoSQL belge tabanlı bir veritabanıdır.**
 * Bir NoSQL veritabanı olduğundan, ilişkisel bir veritabanında bulacağınız tabloları, satırları ve diğer öğeleri değil, bunun yerine belgelerin içinde bulacağınız **key/value** çifti kümelerini elde edersiniz.
-* Verileri bir belgeye atayarak dolaylı olarak belgeler ve koleksiyonlar oluşturursunuz.
+* Verileri bir belgeye atayarak dolaylı olarak **belgeler** ve **koleksiyonlar** oluşturursunuz.
 * Belge veya koleksiyon yoksa, koleksiyonun her zaman kök (ilk) düğüm olması gerektiğinden sizin için otomatik olarak oluşturulur. 
 * Gerçek zamanlı güncelleme özelliği **(realtime listeners)** sayesinde veritabanın da değişiklik olduğunda, otomatik senkronizasyon yapılarak mobil uygulamada veya web sitesinde verilerin kendiliğinden güncellenmesini sağlar.
 * Offline modu desteği ile internet olmadığında cihazın localinden veriler okunabilir, yazılabilir. İnternet geldiğinde otomatik olarak cloud veritabanına senkronizasyon yapılabilir.
 * Firebase **Authentication** ile tam uyumlu çalışmaktadır. Böylece kullanıcının yetkisine göre verilere erişim veya kısıtlama sağlanabilmektedir.
 * Karmaşık, hiyerarşik, iç içe verileri kolaylıkla saklayabilir, hızlı sorgular yapabilirsiniz. Verileri belli bir şemaya göre saklamak zorunda olmadığınız için her bir dokuman farklı sayıda ve isimde alanlar içerebilir.
 
+## 4 - [Cloud Storage?](https://firebase.google.com/products/storage/)
 
+* Büyük ölçüde ölçeklenebilir dosya depolaması sağlar.
+* Aynı zamanda teknik olarak bir *Firebase ürünü değil*, bir **[Google Cloud](https://cloud.google.com/storage/)** ürünüdür.
+* Firebase Storage cloud tabanlı olup içerisinde fotoğraf ve video gibi birçok dosya türünü depolamaya olanak tanır. 
+* Yüksek güvenlikli özelliği yanı sıra dosyaları aktarırken durakladığında kaldığı yerden devam edebilir.
+* Firebase için Cloud Storage, dosyalarınızı bir **Google Cloud Storage** paketinde depolayarak hem Firebase hem de Google Cloud üzerinden erişilebilir hale getirir.
+* Mobil istemcilerden dosya yükleme ve indirme esnekliği sağlar.
+*  Ayrıca **[Google Cloud Storage API](https://cloud.google.com/storage/docs/reference/libraries)**'lerini kullanarak görüntü filtreleme veya video kod dönüştürme gibi sunucu tarafı işlemleri yapabilirsiniz. yani başka bir sağlayıcıya geçiş yapmanıza gerek kalmaz.
+* 
 
 
 
