@@ -23,9 +23,9 @@
 ## A - **How to add Firebase to a Flutter app with FlutterFire CLI (FlutterFire CLI ile Flutter uygulamasına Firebase nasıl eklenir)**
 * **FlutterFire CLI**, desteklenen tüm platformlarda **FlutterFire** kurulum sürecini kolaylaştırmaya yardımcı olacak komutlar sağlayan kullanışlı bir komut satır arayüzüdür.
 * **FlutterFire CLI**, temeldeki **[Firebase CLI](https://firebase.google.com/docs/cli)**'ye bağlıdır.
-* Step 1 :
+# Step 1 :
     * [Node.js](https://nodejs.org/en/download/) yükle
-* Step 2 :
+# Step 2 :
     * Node.js yüklendikten sonra,
     * Windows PowerShell Terminal Ekranını aç
     * Node.js'yi yüklemek, npm komut araçlarını otomatik olarak yükler.
@@ -41,7 +41,7 @@ npm install -g firebase-tools
 ![npm](https://user-images.githubusercontent.com/59411109/208956640-1f7af5a9-1c29-4cfe-8275-da2b5644413f.png)
 
 * node.js in npm komutu ile firebase komutunu etkileştirdik.
-* Step 3 :
+# Step 3 :
     * Aşağıdaki komutu çalıştırarak **FlutterFire CLI**'yi kurun:
 
 ```dart
