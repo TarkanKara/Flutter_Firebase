@@ -7,6 +7,7 @@
 ## **[FlutterFire Plugins](https://firebase.flutter.dev/)**
 | **Packages Name**  | **Documentation**  | **View Source**  |
 | ------------ | ------------ | ------------ |
+|  **[Core](https://pub.dev/packages/firebase_core)** | **[Core](https://firebase.flutter.dev/docs/core/usage/)**  | **[firebase_core](https://github.com/firebase/flutterfire/tree/master/packages/firebase_core)**  |
 | **[Authentication](https://pub.dev/packages/firebase_auth)**  | **[Authentication](https://firebase.flutter.dev/docs/auth/overview/)**  | **[firebase_auth](https://github.com/firebase/flutterfire/tree/master/packages/firebase_auth)**  |
 | **[Realtime Database](https://pub.dev/packages/firebase_database)**  | **[Realtime Database](https://firebase.flutter.dev/docs/database/overview/)**  | **[firebase_database](https://github.com/firebase/flutterfire/tree/master/packages/firebase_database)**  |
 | **[Remote Config](https://pub.dev/packages/firebase_remote_config)**  | **[Remote Config](https://firebase.flutter.dev/docs/remote-config/overview/)**  | **[firebase_remote_config](https://github.com/firebase/flutterfire/tree/master/packages/firebase_remote_config)**  |
