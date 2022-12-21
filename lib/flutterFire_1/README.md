@@ -91,9 +91,53 @@ dependencies:
 ```
 ### Step 7 :
 * **[Firebase Console](https://console.firebase.google.com/u/1/project/uskudarfirebase-13022/overview)** gidip yeni bir firebase projesi oluşturalım.
+* FlutterFire-Demo adında bir proje oluşturdum.
 * Mevcut projemizin terminal ekranına aşağıdaki komutu yazalım
 
 ```dart
-flutterfire configure
+PS C:\FlutterProjects\firebase_flutter> flutterfire configure
+
+i Found 2 Firebase projects.
+? Select a Firebase project to configure your Flutter application with ›
+❯ flutterfire-demo-57878 (FlutterFire-Demo)
+  uskudarfirebase-13022 (UskudarFirebase)
+  <create a new project>
 ```
-*  
+
+* Yön tuşları ile oluşturduğum projeyi seçiyorum. **flutterfire-demo-57878 (FlutterFire-Demo)**
+* Projemizi hangi platformlara uyarlamamız için bizlerden seçim yapmamız isteniyor.
+* Space tuşu ile kaldırıp ekleyebiliriz. Şimdilik sadece android ve ios tek seçecem ve enter tuşuna basıyoruz.
+
+```dart
+PS C:\FlutterProjects\firebase_flutter> flutterfire configure
+i Found 2 Firebase projects.
+✔ Select a Firebase project to configure your Flutter application with · flutterfire-demo-57878 (FlutterFire-Demo)
+? Which platforms should your configuration support (use arrow keys & space to select)? ›
+✔ android
+✔ ios
+  macos
+  web
+```
+
+* Artık lib klasörü altında **firebase_options.dart** dosyasının gelmiş olacak.
+
+### Step 8 :
+* main.dart dosyasının içeriisne gelip **runApp metodunu** düzenliyoruz.
+
+```dart
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  runApp(const MyApp());
+}
+
+```
+
+
+
+
