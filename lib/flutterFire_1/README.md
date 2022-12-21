@@ -24,14 +24,18 @@
 * **FlutterFire CLI**, desteklenen tüm platformlarda **FlutterFire** kurulum sürecini kolaylaştırmaya yardımcı olacak komutlar sağlayan kullanışlı bir komut satır arayüzüdür.
 * **FlutterFire CLI**, temeldeki **[Firebase CLI](https://firebase.google.com/docs/cli)**'ye bağlıdır.
 
+:bangbang:
+
+* Node.js gerektiren kurulum adımlarıdır.
+
 ### Step 1 :
-* [Node.js](https://nodejs.org/en/download/) yükle
+* **[Node.js](https://nodejs.org/en/download/)** yükle
 
 ### Step 2 :
 * **Node.js** yüklendikten sonra,
 * **Windows Komut Satırı(cmd)** Terminal Ekranını aç
 * **Node.js**'yi yüklemek, **npm** komut araçlarını otomatik olarak yükler.
-* **Firebase CLI**'yi **npm** aracılığıyla kuralım
+* **Firebase CLI**'yi **npm** aracılığıyla kuralım ve aşağıdaki kod satırını çalıştıralım.
 
 ```dart
 npm install -g firebase-tools
@@ -42,7 +46,7 @@ npm install -g firebase-tools
 
 ![npm](https://user-images.githubusercontent.com/59411109/208956640-1f7af5a9-1c29-4cfe-8275-da2b5644413f.png)
 
-* **node.js in npm komutu** ile **firebase komutunu** etkileştirdik.
+* **npm komutu** ile **firebase komutunu** etkileştirdik.
 
 ### Step 3 :
 * Aşağıdaki komutu çalıştırarak **FlutterFire CLI**'yi kurun:
@@ -57,8 +61,8 @@ dart pub global activate flutterfire_cli
 ![pub](https://user-images.githubusercontent.com/59411109/208961500-344dbebd-b2f7-4f06-875d-1b4fd0c56d3f.png)
 
 ### Step 4 :
-* Windows arama moturuna sistem ortam değişkenlerini düzenleyeni tıkla
-* bir önceki adımda verilen path i ortam değişkenlerine ekle
+* Windows arama moturuna sistem ortam değişkenlerini düzenleyeni tıkla (Bu Bilgisayar > Özellikler > Gelişmiş sistem ayarları > ortam değişkenleri > PATH > Duzenle > Yeni)
+* bir önceki adımda verilen path i ortam değişkenlerine ekle 
 * Mevcut Komut satırı(cmd) ekranını kapatıp tekrardan aç ve  **dart pub global activate flutterfire_cli** komut satırını tekrardan çalıştır. 
 * Artık **flutterfire** komutunu kullanıyor olacağız.
 
@@ -74,15 +78,15 @@ i  Firebase optionally collects CLI and Emulator Suite usage and error reporting
 ? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)
 ```
 
-* Y deyip devam ediyoruz.
-* Bizi firebase hesabına giriş yapmamız için yönlendirme yapacaktır.
+* Y (Yes) deyip devam ediyoruz.
+* Bizi firebase console hesabına giriş yapmamız için yönlendirme yapacaktır.
 
 ![firebase login](https://user-images.githubusercontent.com/59411109/208972066-3844c24d-15c1-4ff0-af29-3ddb8164c766.png)
 
-* Artık gerekli adımlar tamamlnadıktan sonra firebase hesabına giriş yapmış oluyoruz.
+* Artık gerekli adımlar ve izinler verildikten sonra firebase hesabına giriş yapmış oluyoruz.
 
 ### Step 6 :
-* Artık cmd terminali kapatıp mevcut projemizin Vs code terminaline gidelim.
+* Artık **cmd terminali kapatıp** mevcut **projemizin Vs code terminaline** gidelim.
 * Mevcut projenizin Terminal ekranına gitmeden önce projenize **dependencies** altına **[firebase_core](https://pub.dev/packages/firebase_core)** paketini yüklüyoruz.
 
 ```dart
@@ -91,8 +95,8 @@ dependencies:
 ```
 ### Step 7 :
 * **[Firebase Console](https://console.firebase.google.com/u/1/project/uskudarfirebase-13022/overview)** gidip yeni bir firebase projesi oluşturalım.
-* FlutterFire-Demo adında bir proje oluşturdum.
-* Mevcut projemizin terminal ekranına aşağıdaki komutu yazalım
+* **FlutterFire-Demo** adında bir proje oluşturdum.
+* Mevcut projemizin terminal ekranına aşağıdaki komutu **(flutterfire configure)** yazalım
 
 ```dart
 PS C:\FlutterProjects\firebase_flutter> flutterfire configure
@@ -137,7 +141,8 @@ void main() async {
 }
 
 ```
-
+### Step 9 :
+* Firebase CLI entegrasyon işlemleri node.js kurulumuyla bukadar.
 
 
 
