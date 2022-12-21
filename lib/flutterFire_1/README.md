@@ -21,6 +21,9 @@
 * B - [Manual Installation](https://firebase.flutter.dev/docs/manual-installation)
 
 ## A - **How to add Firebase to a Flutter app with FlutterFire CLI (FlutterFire CLI ile Flutter uygulamasına Firebase nasıl eklenir)**
+
+![firebase cli](https://user-images.githubusercontent.com/59411109/208980928-c9cdd8c4-07b5-4774-bd4a-89a0e18ef949.png)
+
 * **FlutterFire CLI**, desteklenen tüm platformlarda **FlutterFire** kurulum sürecini kolaylaştırmaya yardımcı olacak komutlar sağlayan kullanışlı bir komut satır arayüzüdür.
 * **FlutterFire CLI**, temeldeki **[Firebase CLI](https://firebase.google.com/docs/cli)**'ye bağlıdır.
 
