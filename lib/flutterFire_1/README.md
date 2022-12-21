@@ -29,7 +29,7 @@
 
 # Step 2 :
 * **Node.js** yüklendikten sonra,
-* **Windows PowerShell** Terminal Ekranını aç
+* **Windows Komut Satırı(cmd)** Terminal Ekranını aç
 * **Node.js**'yi yüklemek, **npm** komut araçlarını otomatik olarak yükler.
 * **Firebase CLI**'yi **npm** aracılığıyla kuralım
 
@@ -42,7 +42,7 @@ npm install -g firebase-tools
 
 ![npm](https://user-images.githubusercontent.com/59411109/208956640-1f7af5a9-1c29-4cfe-8275-da2b5644413f.png)
 
-* node.js in npm komutu ile firebase komutunu etkileştirdik.
+* **node.js in npm komutu** ile **firebase komutunu** etkileştirdik.
 
 # Step 3 :
 * Aşağıdaki komutu çalıştırarak **FlutterFire CLI**'yi kurun:
@@ -51,7 +51,49 @@ npm install -g firebase-tools
 dart pub global activate flutterfire_cli
 ```
 
-* yukarıdaki kod satırını yazarak flutterfire komutunu kullanıyor olacağız.
+* yukarıdaki kod satırını yazarak **flutterfire** komutunu kullanıyor olacağız.
 * Şöyle bir uyarı alacaksın -----> **Warning:** Pub installs executables into **C:\Users\unnah\AppData\Local\Pub\Cache\bin**, which is not on your path.
 
 ![pub](https://user-images.githubusercontent.com/59411109/208961500-344dbebd-b2f7-4f06-875d-1b4fd0c56d3f.png)
+
+# Step 4 :
+* Windows arama moturuna sistem ortam değişkenlerini düzenleyeni tıkla
+* bir önceki adımda verilen path i ortam değişkenlerine ekle
+* Mevcut Komut satırı(cmd) ekranını kapatıp tekrardan aç ve  **dart pub global activate flutterfire_cli** komut satırını tekrardan çalıştır. 
+* Artık **flutterfire** komutunu kullanıyor olacağız.
+
+# Step 5 :
+* CLI'yi yükledikten sonra kimlik doğrulaması yapmalısınız
+* Aşağıdaki komutu çalıştırarak Google hesabınızı kullanarak Firebase'e giriş yapın
+
+```dart
+C:\Users\unnah>firebase login
+
+i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+
+? Allow Firebase to collect CLI and Emulator Suite usage and error reporting information? (Y/n)
+```
+
+* Y deyip devam ediyoruz.
+* Bizi firebase hesabına giriş yapmamız için yönlendirme yapacaktır.
+
+![firebase login](https://user-images.githubusercontent.com/59411109/208972066-3844c24d-15c1-4ff0-af29-3ddb8164c766.png)
+
+* Artık gerekli adımlar tamamlnadıktan sonra firebase hesabına giriş yapmış oluyoruz.
+
+# Step 6 :
+* Artık cmd terminali kapatıp mevcut projemizin Vs code terminaline gidelim.
+* Mevcut projenizin Terminal ekranına gitmeden önce projenize **dependencies** altına **firebase_core** paketini yüklüyoruz.
+
+```dart
+dependencies:
+  firebase_core: ^2.4.0
+```
+# Step 7 :
+* **[Firebase Console](https://console.firebase.google.com/u/1/project/uskudarfirebase-13022/overview)** gidip yeni bir firebase projesi oluşturalım.
+* Mevcut projemizin terminal ekranına aşağıdaki komutu yazalım
+
+```dart
+flutterfire configure
+```
+*  
