@@ -24,10 +24,10 @@
 * **FlutterFire CLI**, desteklenen tüm platformlarda **FlutterFire** kurulum sürecini kolaylaştırmaya yardımcı olacak komutlar sağlayan kullanışlı bir komut satır arayüzüdür.
 * **FlutterFire CLI**, temeldeki **[Firebase CLI](https://firebase.google.com/docs/cli)**'ye bağlıdır.
 
-# Step 1 :
+### Step 1 :
 * [Node.js](https://nodejs.org/en/download/) yükle
 
-# Step 2 :
+### Step 2 :
 * **Node.js** yüklendikten sonra,
 * **Windows Komut Satırı(cmd)** Terminal Ekranını aç
 * **Node.js**'yi yüklemek, **npm** komut araçlarını otomatik olarak yükler.
@@ -44,7 +44,7 @@ npm install -g firebase-tools
 
 * **node.js in npm komutu** ile **firebase komutunu** etkileştirdik.
 
-# Step 3 :
+### Step 3 :
 * Aşağıdaki komutu çalıştırarak **FlutterFire CLI**'yi kurun:
 
 ```dart
@@ -56,13 +56,13 @@ dart pub global activate flutterfire_cli
 
 ![pub](https://user-images.githubusercontent.com/59411109/208961500-344dbebd-b2f7-4f06-875d-1b4fd0c56d3f.png)
 
-# Step 4 :
+### Step 4 :
 * Windows arama moturuna sistem ortam değişkenlerini düzenleyeni tıkla
 * bir önceki adımda verilen path i ortam değişkenlerine ekle
 * Mevcut Komut satırı(cmd) ekranını kapatıp tekrardan aç ve  **dart pub global activate flutterfire_cli** komut satırını tekrardan çalıştır. 
 * Artık **flutterfire** komutunu kullanıyor olacağız.
 
-# Step 5 :
+### Step 5 :
 * CLI'yi yükledikten sonra kimlik doğrulaması yapmalısınız
 * Aşağıdaki komutu çalıştırarak Google hesabınızı kullanarak Firebase'e giriş yapın
 
@@ -81,15 +81,15 @@ i  Firebase optionally collects CLI and Emulator Suite usage and error reporting
 
 * Artık gerekli adımlar tamamlnadıktan sonra firebase hesabına giriş yapmış oluyoruz.
 
-# Step 6 :
+### Step 6 :
 * Artık cmd terminali kapatıp mevcut projemizin Vs code terminaline gidelim.
-* Mevcut projenizin Terminal ekranına gitmeden önce projenize **dependencies** altına **firebase_core** paketini yüklüyoruz.
+* Mevcut projenizin Terminal ekranına gitmeden önce projenize **dependencies** altına **[firebase_core](https://pub.dev/packages/firebase_core)** paketini yüklüyoruz.
 
 ```dart
 dependencies:
   firebase_core: ^2.4.0
 ```
-# Step 7 :
+### Step 7 :
 * **[Firebase Console](https://console.firebase.google.com/u/1/project/uskudarfirebase-13022/overview)** gidip yeni bir firebase projesi oluşturalım.
 * Mevcut projemizin terminal ekranına aşağıdaki komutu yazalım
 
